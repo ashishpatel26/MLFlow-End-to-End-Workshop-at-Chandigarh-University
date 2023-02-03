@@ -1,0 +1,40 @@
+Step 1: Open the Vscode
+
+Step 2: Open the folder where your data is there
+
+Step 3: Install python extension and Jupyter Extension from the Extension tab on vs code
+
+Step 4: Press the shortcut ==> CTRL + SHIFT + P to select the python terminal
+
+Step 5: Once you select your python terminal, open the new terminal from ==> terminal/new terminal
+
+Step 6: So your latest python environment is created.
+
+Step 7: you have to install the packages type below command to install packages
+
+=> First type this in termnial
+
+pip install matplotlib
+
+=> Second type this in terminal
+
+pip install -r requirements.txt
+
+Step 8: your environment is setup now and check the version of mlflow by typing below command in terminal
+
+mlflow --version
+
+Step 9: Time to create the server of mlflow
+
+For default server 
+
+Command 1:
+mlflow server --backend-store-uri sqlite:///mlflow.db
+
+
+For Customizing url
+
+Command 2:
+mlflow server --backend-store-uri sqlite:///mlflow.db --host 0.0.0.0 --port 5050
+
+Next all will be in doing in jupyter notebook

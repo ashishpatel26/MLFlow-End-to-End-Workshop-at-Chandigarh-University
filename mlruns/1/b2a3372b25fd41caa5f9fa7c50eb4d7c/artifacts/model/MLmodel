@@ -1,0 +1,27 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.9
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.2.1
+mlflow_version: 2.1.1
+model_uuid: 6bf03a1cb36f41378d177c4afbc21812
+run_id: b2a3372b25fd41caa5f9fa7c50eb4d7c
+signature:
+  inputs: '[{"name": "Age", "type": "long"}, {"name": "Sex", "type": "string"}, {"name":
+    "ChestPainType", "type": "string"}, {"name": "RestingBP", "type": "long"}, {"name":
+    "Cholesterol", "type": "long"}, {"name": "FastingBS", "type": "long"}, {"name":
+    "RestingECG", "type": "string"}, {"name": "MaxHR", "type": "long"}, {"name": "ExerciseAngina",
+    "type": "string"}, {"name": "Oldpeak", "type": "double"}, {"name": "ST_Slope",
+    "type": "string"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+utc_time_created: '2023-02-03 09:32:48.818135'

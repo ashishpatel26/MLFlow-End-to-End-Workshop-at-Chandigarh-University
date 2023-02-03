@@ -1,0 +1,7 @@
+{
+  "accuracy_score_X_test": "accuracy_score(y_true=y_test, y_pred=y_pred)",
+  "cohen_kappa_score_X_test": "cohen_kappa_score(y1=y_test, y2=y_pred)",
+  "precision_score_X_test": "precision_score(y_true=y_test, y_pred=y_pred)",
+  "recall_score_X_test": "recall_score(y_true=y_test, y_pred=y_pred)",
+  "roc_auc_score_X_test": "roc_auc_score(y_true=y_test, y_score=y_pred)"
+}
